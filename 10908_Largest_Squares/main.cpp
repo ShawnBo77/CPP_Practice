@@ -31,7 +31,7 @@ int main(){
 		int M = 0, N = 0, Q = 0, r = 0, c = 0, maxlen = 0;
 		cin >> M >> N >> Q;
 		cout << M << " " << N << " " << Q << "\n";
-		string data[N] = {};
+		string data[M] = {};
 		for(int i = 0; i < M; i++){
 			cin >> data[i];
 		}
